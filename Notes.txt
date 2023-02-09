@@ -1,0 +1,96 @@
+
+Verisk & CreditSafe account 
+React Doubt clarification/mentor connect call. 
+
+MENTOR CONNECT SESSION-  REACT MODULE-[201-INTERMEDIATE]- CTHWD304505
+
+---
+
+Background:
+---
+  Raghavendra 
+  --  
+    2-3 years of exp 
+    not functional comp exp 
+    need to know hooks & custom hook 
+    need to know JEST & RTL 
+    need to know redux-toolkit 
+
+  Balaji 
+  --
+    3 yrs into React. 5 projects 
+    need to know class comp
+    need to know custom hook 
+    need to know advanced JEST & RTL
+    not sure about react tech stack of upcoming project 
+
+  Muthukumarasamy 
+  --
+    overall react js exp: 6 years
+    working on React + TS now
+    need to know JEST & RTL
+    haven't worked on redux-saga
+    need to know redux-toolkit 
+
+---
+React JS 
+---
+  * Fn comp (4 hours)
+    * hooks 
+      useState, useEffect, useReducer, useRef, 
+      custom hooks 
+      useCallback (TODO)
+      useMemo (TODO)
+      useContext (TODO)
+    
+  * class comp (1 hour)
+    * lifecycle hooks 
+
+  * JEST & RTL (4 hours)
+
+  * redux-toolkit (3 hours)
+
+-----
+
+approach
+--
+  Hands-on 
+  --
+  explain => coding => demo => (try out) => (Todos)
+
+  project-based 
+  ----
+
+// Fn components
+/* 
+  1. Fn Comp with Named Fn [DONE]
+  2. Fn Comp with Anonymous Fn [DONE]
+  3. Fn Comp with Arrow Fn 
+*/
+
+
+
+
+
+    
+
+
+
+
+  
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+  
+
+ 
