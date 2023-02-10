@@ -5,15 +5,17 @@
   3. Fn Comp with Arrow Fn 
 */
 
+import { NavLink } from "react-router-dom";
+
 // Fn Comp with Named Fn
 function Header() {
   return (
     <header>
       <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <NavLink to='/' className="navbar-brand">
             My Blog App
-          </a>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -28,24 +30,24 @@ function Header() {
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <ul className="navbar-nav me-auto mb-2 mb-md-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <NavLink to="/" className="nav-link active" aria-current="page">
                   Home
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <NavLink to='/blog' className="nav-link">
                   Blog
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <NavLink to='/about' className="nav-link">
                   About
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Contact
-                </a>
+                <NavLink to='/contact' className="nav-link">
+                  Contact (Todo)
+                </NavLink>
               </li>
             </ul>
           </div>

@@ -62,22 +62,23 @@ approach
   ----
 
 // Fn components
-/* 
   1. Fn Comp with Named Fn [DONE]
   2. Fn Comp with Anonymous Fn [DONE]
   3. Fn Comp with Arrow Fn 
-*/
 
+  * were called as dumb / presentational / stateless components before v16.8 of React 
+  * after v16.8 of React, no longer stateless 
+  * hooks facilitate loads of missed features 
+  * have state and other React features without writing a class component.
 
-
-
-
-    
-
-
-
+// Class Components 
+  * called as containers, stateful, smart components 
 
   
+
+
+
+
 
 
 

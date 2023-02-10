@@ -1,0 +1,18 @@
+1. Try exploring useState hook with object and nested object being default value.
+  example
+  ---------
+    useState({
+      name: 'John',
+      age: 20,
+      role: 'student',
+      address: {
+        city: 'London'
+      }
+    })
+
+    have two buttons  in JSX with proper event handlers
+      [Change Age] 
+      [Change City]
+
+    try updating age and city 
+  
