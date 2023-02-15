@@ -13,7 +13,7 @@ function Header() {
     <header>
       <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div className="container-fluid">
-          <NavLink to='/' className="navbar-brand">
+          <NavLink to="/" className="navbar-brand">
             My Blog App
           </NavLink>
           <button
@@ -35,17 +35,22 @@ function Header() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to='/blog' className="nav-link">
+                <NavLink to="/blog" className="nav-link">
                   Blog
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to='/about' className="nav-link">
+                <NavLink to="/todo" className="nav-link">
+                  Todo
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink to="/about" className="nav-link">
                   About
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to='/contact' className="nav-link">
+                <NavLink to="/contact" className="nav-link">
                   Contact (Todo)
                 </NavLink>
               </li>
