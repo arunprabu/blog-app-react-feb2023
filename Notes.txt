@@ -37,8 +37,8 @@ React JS
 ---
   * Fn comp (4 hours)
     * hooks 
-      useState, useEffect, useReducer, useRef, 
-      custom hooks 
+      useState, useEffect, useReducer, useRef, [DONE]
+      custom hooks [TODO]
       useCallback (TODO)
       useMemo (TODO)
       useContext (TODO)
@@ -46,7 +46,7 @@ React JS
   * class comp (1 hour)
     * lifecycle hooks 
 
-  * JEST & RTL (4 hours)
+  * JEST & RTL (10 hours)
 
   * redux-toolkit (3 hours)
 
