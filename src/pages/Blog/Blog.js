@@ -8,8 +8,7 @@ const Blog = () => {
   const [isError, setIsError] = useState(false);
 
   function callApi() {
-    axios
-      .get("https://jsonplaceholder.typicode.com/posts?_limit=10")
+    axios("https://jsonplaceholder.typicode.com/posts?_limit=10")
       .then((res) => {
         // successful res
         console.log(res);

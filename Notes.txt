@@ -43,10 +43,21 @@ React JS
       useMemo (TODO)
       useContext (TODO)
     
-  * class comp (1 hour)
+  * class comp (1.5 hour)
     * lifecycle hooks 
+    error boundary
 
-  * JEST & RTL (10 hours)
+  * unit testing
+    * JEST & RTL (10 hours)
+      * prop 
+      * state 
+      * events 
+      * JSX 
+      * snapshot 
+      * mocking positive
+      * mocking negative 
+      * spy 
+  
 
   * redux-toolkit (3 hours)
 
