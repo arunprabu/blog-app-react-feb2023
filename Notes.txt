@@ -44,8 +44,8 @@ React JS
       useContext (TODO)
     
   * class comp (1.5 hour)
-    * lifecycle hooks 
-    error boundary
+    * lifecycle hooks [done]
+    error boundary 
 
   * unit testing
     * JEST & RTL (10 hours)
