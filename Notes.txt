@@ -124,14 +124,24 @@ Modern Software Dev approach
   devs write test cases => devs write fn code => (Tools) => SUCCESS / FAILURE 
 -------
 
-
-
-  
-
-
-
 Automated Testing 
 ---
+  0. 
+  1.
+  2.
+  3. 
+
+---
+2 Approaches 
+---
+
+2 Testing Patterns 
+---
+
+Tools
+---
+  
+
   
 
 
