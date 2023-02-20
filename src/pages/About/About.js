@@ -1,5 +1,7 @@
 // class component
 import { Component } from "react";
+import ErrorBoundary from "../../shared/ErrorBoundary/ErrorBoundary";
+import Calculator from "./Calculator/Calculator";
 
 class About extends Component {
   constructor() {
@@ -34,7 +36,7 @@ class About extends Component {
       //   isLoading: false,
       //   isError: true
       // });
-    }, 10000);
+    }, 2000);
   }
 
   shouldComponentUpdate(nextProps, nextState) {
@@ -90,6 +92,9 @@ class About extends Component {
     return (
       <div>
         <h1>About {this.state.featureName}</h1>
+        <ErrorBoundary>
+          <Calculator/>
+        </ErrorBoundary>
       </div>
     );
   }
