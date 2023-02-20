@@ -45,9 +45,9 @@ React JS
     
   * class comp (1.5 hour)
     * lifecycle hooks [done]
-    error boundary 
+    error boundary [done]
 
-  * unit testing
+  * unit testing 
     * JEST & RTL (10 hours)
       * prop 
       * state 
@@ -88,9 +88,51 @@ approach
   
 
 
+---
+
+---
+Calc
+--
+  Development 
+  --
+    Sources: FRD, HLD, Designs
+    
+    Prepare Test Cases for Add Feature
+    ==================
+      1. input should be of numbers
+      2. output should be of number as well
+      3. if other than numbers entered add button should be disabled 
+
+    Add Feature
+    ---
+      function add(a, b) {
+        if(typeof a === 'number' && typeof b === 'number'){
+          return a + b;
+        }
+      }
+      add(10, 20); // 30
+
+    To Test use Tools
+    ----
+      * to test our functional code against the identified test cases 
+      * if bugs the tools will throw error immediately
+      * if success the tools will give a green signal
+
+===
+Modern Software Dev approach
+---
+  devs write test cases => devs write fn code => (Tools) => SUCCESS / FAILURE 
+-------
 
 
 
+  
+
+
+
+Automated Testing 
+---
+  
 
 
 
