@@ -54,6 +54,11 @@ function Header() {
                   Contact (Todo)
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink to="/unit-testing-demo" className="nav-link">
+                  Unit Testing Demo
+                </NavLink>
+              </li>
             </ul>
           </div>
         </div>
