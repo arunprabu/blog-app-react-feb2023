@@ -49,14 +49,16 @@ React JS
 
   * unit testing 
     * JEST & RTL (10 hours)
+      * JSX 
       * prop 
       * state 
       * events 
-      * JSX 
       * snapshot 
       * mocking positive
       * mocking negative 
       * spy 
+
+      code coverage 
   
 
   * redux-toolkit (3 hours)
@@ -126,23 +128,68 @@ Modern Software Dev approach
 
 Automated Testing 
 ---
-  0. 
-  1.
-  2.
-  3. 
+  0. Static Type Checking 
+      * checking the data type of a variable, fn, argument, return types
+      Tools: TypeScript / Flow JS / PropTypes 
+
+  1. Unit Testing (To learn)
+      * testing small unit of a comp 
+      * testing independent unit of a comp 
+      * testing in isolation 
+      Tools: JEST (Framework and also a Test Runner) + React Testing Library
+                  or 
+             JEST + Enzyme 
+
+  2. Integration Testing 
+      * Testing modules together (with rest api calls)
+
+      Tools: JEST (Framework and also a Test Runner) + React Testing Library
+                or 
+             JEST + Enzyme 
+
+  3. End to End (E2E) Testing 
+      * Testing the whole app.
+      * mostly carried out by QA Team 
+
+      Tools: CypressJS, Selenium, Protractor, Cucumber, playwright, Puppeteer
+
 
 ---
-2 Approaches 
+2 Approaches / 2 Testing Methodologies (modern)
 ---
+  1. Test Driven Development  (TDD) [To learn]
+      * write NEW CODE only if automated test fails 
+
+      Dev writes test cases => (failure) => Dev writes fn code  => (success) => [CODE COMPLETE]
+      
+      Testing Pattern: AAA (Arrange, Act, Assert)
+      Tools: JEST
+
+  2. Behavior Driven Development (BDD)
+      * is an agile s/w dev Methodology 
+      * app is documented, designed around the behaviour the end user 
+        wants to experience when they interact with with it
+
+      Dev writes test cases around the Behavior we want to see => ( failure ) => Dev writes fn code  => (success) => [CODE COMPLETE]
+      
+      Testing Pattern: Given, When, Then 
+      Tools: Jasmine JS
 
 2 Testing Patterns 
 ---
+  1. AAA (Arrange, Act, Assert)
+  2. Given, When, Then 
 
-Tools
+3 Tools
 ---
-  
+  1. JEST (Testing Framework and a Test Runner)
+  2. React Testing Library (RTL) - Testing utility for DOM Querying
+  3. EnzymeJs - Testing utility for DOM Querying (similar to jQuery)
+      * supports officially till React v16
+      * also works unofficially in React v17
+      * no official or unofficial support for React v18. 
 
-  
+---------
 
 
 
