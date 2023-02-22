@@ -191,6 +191,27 @@ Automated Testing
 
 ---------
 
+Unit Testing 
+---
+  1. Testing JSX Elements 
+  2. Testing Props 
+  3. Testing Inline CSS
+  4. Testing CSS Classes 
+  5. Testing Events & States with form inputs 
+  6. Testing Events & States with Buttons 
+  7. Snapshot Testing 
+  8. Testing Forms 
+  9. Testing REST API Calls 
+        * with mocks 
+        * with spies 
+        * positive and negative tests 
+  10. Testing Routing [TODO]
+  11. Testing Context [TODO- may explain]
+  12. Testing Reducer [TODO]
+  13. Setup and Tear down 
+  14. Code Coverage 
+
+
 
 
   

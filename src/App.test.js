@@ -1,8 +1,14 @@
+// AAA 
+// Arrange
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+// test spec / test case 
+test('renders Welcome to React JS! text', () => {
+  // Act
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  
+  const paraElement = screen.getByText(/Welcome to React JS!/i);
+  // Assert
+  expect(paraElement).toBeInTheDocument();
 });

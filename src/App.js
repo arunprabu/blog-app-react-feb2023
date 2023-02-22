@@ -15,6 +15,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <main className="mt-5 pt-3 container">
+          <p>Welcome to React JS!</p>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/blog" element={<Blog />} />
