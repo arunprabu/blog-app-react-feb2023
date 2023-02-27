@@ -1,5 +1,6 @@
 import React from 'react'
 import CompanyInfo from './CompanyInfo/CompanyInfo';
+import Counter from './Counter/Counter';
 
 const UnitTestingDemo = () => {
   return (
@@ -8,6 +9,8 @@ const UnitTestingDemo = () => {
       <a href="https://reactjs.org/docs/testing.html">Unit Testing Reference</a>
       <hr/>
       <CompanyInfo foundedYear="1994" foundedPlace='Chennai'/>
+      <hr/>
+      <Counter />
 
     </div>
   );

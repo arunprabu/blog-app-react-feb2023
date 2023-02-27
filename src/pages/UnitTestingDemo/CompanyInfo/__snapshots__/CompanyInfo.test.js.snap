@@ -2,9 +2,6 @@
 
 exports[`CompanyInfo has right CompanyInfo component snapshot 1`] = `
 <div>
-  <p>
-    Mon Feb 27 2023 18:10:38 GMT+0530 (India Standard Time)
-  </p>
   <h2>
     Company Info | Testing JSX, Props, Styles, Placeholder Text, Events, States and Snapshot!
   </h2>

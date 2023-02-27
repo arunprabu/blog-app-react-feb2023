@@ -92,5 +92,4 @@ describe("CompanyInfo", () => {
     expect(snapshotInJson).toMatchSnapshot();
   });
 
-
 });
