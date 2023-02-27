@@ -1,5 +1,6 @@
 import React from 'react'
 import CompanyInfo from './CompanyInfo/CompanyInfo';
+import ContactForm from './ContactForm/ContactForm';
 import Counter from './Counter/Counter';
 
 const UnitTestingDemo = () => {
@@ -11,6 +12,8 @@ const UnitTestingDemo = () => {
       <CompanyInfo foundedYear="1994" foundedPlace='Chennai'/>
       <hr/>
       <Counter />
+      <hr/>
+      <ContactForm />
 
     </div>
   );
