@@ -7,7 +7,7 @@ const CompanyInfo = ({ foundedYear, foundedPlace }) => {
     <div>
       <h2>
         Company Info | Testing JSX, Props, Styles, Placeholder Text, Events,
-        States and Snapshot
+        States and Snapshot!
       </h2>
       <h3 data-testid="companyName">Company Name: Cognizant</h3>
       <p data-testid="foundedYear" style={{ color: "#ff0000" }}>
@@ -21,11 +21,13 @@ const CompanyInfo = ({ foundedYear, foundedPlace }) => {
         className="form-control"
         style={{ width: "300px" }}
         value={countryName}
-        onChange={ (event) => {
-          setCountryName(event.target.value)
+        onChange={(event) => {
+          setCountryName(event.target.value);
         }}
       />
-      <p data-testid="visitWebsiteTxt">Please visit Cognizant {countryName} Website</p>
+      <p data-testid="visitWebsiteTxt">
+        Please visit Cognizant {countryName} Website
+      </p>
     </div>
   );
 };

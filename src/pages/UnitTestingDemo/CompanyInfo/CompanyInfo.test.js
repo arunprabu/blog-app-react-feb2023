@@ -1,4 +1,5 @@
 import { fireEvent, render, screen } from "@testing-library/react";
+import renderer from 'react-test-renderer';
 import CompanyInfo from "./CompanyInfo";
 
 describe("CompanyInfo", () => {
@@ -83,6 +84,13 @@ describe("CompanyInfo", () => {
     expect(countryNameInput.value).toBe("Australia");
   });
 
+  it('has right CompanyInfo component snapshot', () => {
+    // to take snapshot we need react-test-renderer // npm i react-test-renderer
+    // taking a snapshot and also converting it into JSON
+    // [RECOMMENDED]: Take snapshot with all possible props and also props children
+    const snapshotInJson = renderer.create(<CompanyInfo foundedYear="1994" foundedPlace="Chennai" />).toJSON();
+    expect(snapshotInJson).toMatchSnapshot();
+  });
 
 
 });
