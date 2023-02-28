@@ -12,7 +12,7 @@ const Users = () => {
     // What is the API URL? https://jsonplaceholder.typicode.com/users
     // What's the Http Method? GET
     // What's the REST API Client Tool? fetch api
-    fetchApi("https://jsonplaceholder.typicode.com/usefsrs")
+    fetchApi("https://jsonplaceholder.typicode.com/users")
       .then((resInJSON) => {
         // capturing the converted JSON res
         // console.log(resInJSON);

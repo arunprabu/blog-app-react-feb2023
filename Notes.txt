@@ -203,14 +203,18 @@ Unit Testing
   7. Snapshot Testing [DONE]
   8. Testing Forms [DONE]
   9. Testing REST API Calls 
-        * with mocks 
-        * with spies 
-        * positive and negative tests 
+        * with mocks [DONE]
+        * with spies [DONE]
+        * positive and negative tests [DONE]
   10. Testing Routing [TODO]
   11. Testing Context [TODO- may explain]
   12. Testing Reducer [TODO]
-  13. Setup and Tear down 
-  14. Code Coverage 
+  13. Setup and Tear down [DONE]
+  14. Code Coverage [DONE]
+
+Redux toolkit
+--
+
 
 
 

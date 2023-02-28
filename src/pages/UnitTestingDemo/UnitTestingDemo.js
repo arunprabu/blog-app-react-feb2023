@@ -2,6 +2,7 @@ import React from 'react'
 import CompanyInfo from './CompanyInfo/CompanyInfo';
 import ContactForm from './ContactForm/ContactForm';
 import Counter from './Counter/Counter';
+import Posts from './Posts/Posts';
 import Users from './Users/Users';
 
 const UnitTestingDemo = () => {
@@ -17,6 +18,9 @@ const UnitTestingDemo = () => {
       <ContactForm />
       <hr/>
       <Users />
+
+      <hr/>
+      <Posts />
 
     </div>
   );
