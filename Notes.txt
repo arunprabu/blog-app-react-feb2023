@@ -212,8 +212,17 @@ Unit Testing
   13. Setup and Tear down [DONE]
   14. Code Coverage [DONE]
 
-Redux toolkit
+
+Redux 
 --
+  1. Classic Redux 
+      manual integration
+  2. Redux toolkit
+      minimal effort 
+      * slice 
+
+-----
+
 
 
 
